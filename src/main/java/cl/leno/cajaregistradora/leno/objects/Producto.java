@@ -4,7 +4,7 @@ package cl.leno.cajaregistradora.leno.objects;
  *
  * @author sebas
  */
-public abstract class Producto {
+public abstract class Producto implements Cloneable{
 
     private String nombre;
     private int cantidad;
@@ -52,5 +52,9 @@ public abstract class Producto {
     @Override
     public String toString(){
         return this.nombre + " - " + this.cantidad + " - " + this.precio;
+    }
+    
+    public Producto clone() throws CloneNotSupportedException{
+        return (Producto) super.clone();
     }
 }
