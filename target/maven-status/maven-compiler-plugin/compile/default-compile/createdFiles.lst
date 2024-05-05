@@ -1,3 +1,4 @@
+cl\leno\cajaregistradora\leno\views\Vista.class
 cl\leno\cajaregistradora\leno\test\Referencias.class
 cl\leno\cajaregistradora\leno\objects\Carne.class
 cl\leno\cajaregistradora\leno\test\Persona.class
@@ -7,3 +8,4 @@ cl\leno\cajaregistradora\leno\objects\Papa.class
 cl\leno\cajaregistradora\leno\test\Main.class
 cl\leno\cajaregistradora\leno\test\Jabon.class
 cl\leno\cajaregistradora\leno\objects\Producto.class
+cl\leno\cajaregistradora\leno\controllers\CajaRegistradora.class
